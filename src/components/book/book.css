@@ -1,0 +1,37 @@
+.page {
+  box-shadow: 0 0 10px gray;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 150px);
+  width: 100%;
+}
+
+.flip-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  z-index: 50;
+}
+
+.flip-controls button {
+  margin: 5px;
+  font-size: 25px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #282558;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-disabled {
+  background-color: gray !important;
+}

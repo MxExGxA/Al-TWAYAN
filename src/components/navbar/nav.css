@@ -1,0 +1,23 @@
+.nav-container {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container .wrapper {
+  width: 95%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo img {
+    width: 40px;
+  }
+}
